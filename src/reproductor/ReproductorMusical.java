@@ -572,8 +572,8 @@ private void agregarCancionesEjemplo() {
     try {
         // Usar rutas absolutas a los archivos que realmente existen en tu sistema
         // Cambia estas rutas a donde realmente tienes los archivos MP3
-        File archivoEjemplo1 = new File("C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\Progra II\\Reproductor\\src\\Canciones/Espresso.mp3");
-        String rutaImagen1 = "C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\Progra II\\Reproductor\\src\\Imagenes/espresso.png";
+        File archivoEjemplo1 = new File("C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\DFC\\Reproductor\\src\\Canciones/Espresso.mp3");
+        String rutaImagen1 = "C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\DFC\\Reproductor\\src\\Imagenes/espresso.png";
         
         // Verificar si el archivo existe
         if (!archivoEjemplo1.exists()) {
@@ -591,8 +591,8 @@ private void agregarCancionesEjemplo() {
             rutaImagen1
         );
         
-        File archivoEjemplo2 = new File("C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\Progra II\\Reproductor\\src\\Canciones/youngblood.mp3");
-        String rutaImagen2 = "C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\Progra II\\Reproductor\\src\\Imagenes/youngblood.png";
+        File archivoEjemplo2 = new File("C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\DFC\\Reproductor\\src\\Canciones/youngblood.mp3");
+        String rutaImagen2 = "C:\\Users\\Nadiesda Fuentes\\OneDrive\\Escritorio\\DFC\\Reproductor\\src\\Imagenes/youngblood.png";
         
         // Verificar si el archivo existe
         if (!archivoEjemplo2.exists()) {
